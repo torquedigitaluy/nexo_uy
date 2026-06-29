@@ -200,10 +200,10 @@ export default function Home() {
             {benefits.map((benefit) => (
               <div
                 key={benefit.number}
-                className={`relative overflow-hidden rounded-xl border border-gray-200 bg-gray-50 p-6 md:p-7 flex flex-col justify-between ${
+                className={`relative overflow-hidden rounded-xl border border-gray-200 bg-gray-50 p-6 flex flex-col justify-center ${
                   benefit.size === "square"
-                    ? "lg:col-span-2 lg:aspect-square"
-                    : "sm:col-span-2 lg:col-span-3 lg:aspect-[2.4/1]"
+                    ? "lg:col-span-2 lg:min-h-[210px]"
+                    : "sm:col-span-2 lg:col-span-3 lg:min-h-[170px]"
                 }`}
               >
                 <span
