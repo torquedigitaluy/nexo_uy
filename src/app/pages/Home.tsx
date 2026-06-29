@@ -9,8 +9,9 @@ import {
   CarouselNext,
 } from "../components/ui/carousel";
 import { Menu, X, Mail, Phone, MapPin } from "lucide-react";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { localImages } from "../data/images";
+import Autoplay from "embla-carousel-autoplay";
 
 const benefits = [
   {
@@ -50,10 +51,11 @@ const benefits = [
   },
 ];
 
-const container = "max-w-[1280px] mx-auto px-5 md:px-8";
+const container = "max-w-[1680px] mx-auto px-4 md:px-6";
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const autoplay = useRef(Autoplay({ delay: 3500, stopOnInteraction: false, stopOnMouseEnter: true }));
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -200,8 +202,8 @@ export default function Home() {
                 key={benefit.number}
                 className={`relative overflow-hidden rounded-xl border border-gray-200 bg-gray-50 p-6 md:p-7 flex flex-col justify-between ${
                   benefit.size === "square"
-                    ? "lg:col-span-2 lg:min-h-[300px]"
-                    : "sm:col-span-2 lg:col-span-3 lg:min-h-[200px]"
+                    ? "lg:col-span-2 lg:aspect-square"
+                    : "sm:col-span-2 lg:col-span-3 lg:aspect-[2.4/1]"
                 }`}
               >
                 <span
@@ -237,7 +239,10 @@ export default function Home() {
       {/* Services Section */}
       <section id="services" className="py-12 md:py-16 bg-gray-100">
         <div className={container}>
-          <Carousel opts={{ align: "start" }}>
+          <Carousel
+            opts={{ align: "start", loop: true }}
+            plugins={[autoplay.current]}
+          >
             <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
               <div>
                 <h2 className="text-black mb-3">Nuestros Servicios</h2>
@@ -336,8 +341,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black text-white py-6 px-5">
-        <div className="max-w-[1280px] mx-auto text-center">
+      <footer className="bg-black text-white py-6">
+        <div className={`${container} text-center`}>
           <img
             src={localImages.nexouyLogoFull}
             alt="NexoUY"
