@@ -1,6 +1,13 @@
 import { services } from "../data/services";
 import ServiceCard from "../components/ServiceCard";
 import SectionBackdrop from "../components/SectionBackdrop";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
+} from "../components/ui/carousel";
 import { Menu, X, Mail, Phone, MapPin } from "lucide-react";
 import { useState } from "react";
 import { localImages } from "../data/images";
@@ -230,20 +237,38 @@ export default function Home() {
       {/* Services Section */}
       <section id="services" className="py-12 md:py-16 bg-gray-100">
         <div className={container}>
-          <div className="text-center mb-8">
-            <h2 className="text-black mb-3">Nuestros Servicios</h2>
-            <div className="w-16 h-1 bg-[#ff6b00] mx-auto mb-3"></div>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Descubrí nuestra selección de servicios profesionales en diferentes áreas. Hacé clic
-              en cualquier servicio para ver más información y contactar directamente.
-            </p>
-          </div>
+          <Carousel opts={{ align: "start" }}>
+            <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
+              <div>
+                <h2 className="text-black mb-3">Nuestros Servicios</h2>
+                <div className="w-16 h-1 bg-[#ff6b00] mb-3"></div>
+                <p className="text-gray-600 max-w-2xl">
+                  Descubrí nuestra selección de servicios profesionales en diferentes áreas. Hacé
+                  clic en cualquier servicio para ver más información y contactar directamente.
+                </p>
+              </div>
+              <div className="hidden sm:flex gap-2 shrink-0">
+                <CarouselPrevious className="static left-auto right-auto top-auto translate-y-0" />
+                <CarouselNext className="static left-auto right-auto top-auto translate-y-0" />
+              </div>
+            </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-            {services.map((service) => (
-              <ServiceCard key={service.id} service={service} />
-            ))}
-          </div>
+            <CarouselContent className="-ml-5">
+              {services.map((service) => (
+                <CarouselItem
+                  key={service.id}
+                  className="pl-5 basis-[85%] sm:basis-1/2 lg:basis-1/3"
+                >
+                  <ServiceCard service={service} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+
+            <div className="flex sm:hidden justify-center gap-3 mt-6">
+              <CarouselPrevious className="static left-auto right-auto top-auto translate-y-0" />
+              <CarouselNext className="static left-auto right-auto top-auto translate-y-0" />
+            </div>
+          </Carousel>
         </div>
       </section>
 
