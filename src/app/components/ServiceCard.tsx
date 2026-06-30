@@ -24,6 +24,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
           service.id === 'torque-digital' ? 'bg-[#0a1628]' :
           service.id === 'cortinas-sur' ? 'bg-black' :
           service.id === 'roverano-despachante' ? 'bg-black' :
+          service.id === 'piur-aromatizadores' ? 'bg-white' :
           'bg-gray-100'
         }`}>
           <img
