@@ -293,6 +293,36 @@ Evaluamos tu problema y te damos una cotización transparente antes de empezar a
     }
   },
   {
+    id: 'roverano-despachante',
+    name: 'Diego Roverano - Despachante de Aduanas',
+    category: 'Despacho de Aduana y Comercio Exterior',
+    description: 'Asesoramiento integral en comercio exterior e importaciones y exportaciones',
+    fullDescription: `Somos una empresa con amplia experiencia en despacho de aduanas y comercio exterior. Brindamos asesoramiento integral y soluciones personalizadas para importaciones, exportaciones, tránsitos, admisiones temporarias y operaciones en zonas francas.
+
+Además, gestionamos trámites ante organismos oficiales como MGAP, DGI y MIEM, ofreciendo un servicio ágil, confiable y competitivo desde nuestra oficina en Ciudad Vieja, Montevideo.
+
+Nuestros pilares:
+
+🌐 Experiencia en Comercio Exterior
+Años de trayectoria en operaciones de importación y exportación con un equipo altamente capacitado.
+
+🛡️ Seguridad y Confianza
+Gestionamos cada operación con rigor profesional, cumpliendo todas las normativas aduaneras vigentes.
+
+⏱️ Agilidad en Cada Operación
+Optimizamos los tiempos de despacho para que tu mercadería llegue cuando la necesitás.
+
+📍 Edificio Zeinal, Rambla 25 de Agosto de 1825 318, Entrepiso 101 — Ciudad Vieja, Montevideo`,
+    image: localImages.roveranoLogo,
+    detailImage: localImages.roveranoFlyer,
+    contact: {
+      phone: '095 017 281',
+      whatsapp: '59895017281',
+      email: 'diego@droverano.com',
+      website: 'https://www.droverano.com'
+    }
+  },
+  {
     id: 'cortinas-sur',
     name: 'Cortinas Sur',
     category: 'Cortinas de Enrollar',
