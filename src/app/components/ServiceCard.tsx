@@ -42,6 +42,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
               service.id === 'piur-aromatizadores' ? 'object-contain p-6' :
               service.id === 'cortinas-sur' ? 'object-contain p-4' :
               service.id === 'roverano-despachante' ? 'object-contain p-4' :
+              service.id === 'terra-boutique' ? 'object-contain p-8' :
               'object-cover object-top'
             }`}
           />
