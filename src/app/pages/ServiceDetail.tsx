@@ -64,17 +64,21 @@ export default function ServiceDetail() {
             service.id === 'dls-construcciones' ? 'h-48 md:h-56 bg-black' :
             service.id === 'quiroga-automoviles' ? 'h-48 md:h-56 bg-white' :
             service.id === 'torque-digital' ? 'h-48 md:h-56 bg-[#0a1628]' :
+            service.id === 'roverano-despachante' ? 'h-48 md:h-56 bg-black' :
+            service.id === 'cortinas-sur' ? 'h-48 md:h-56 bg-black' :
             service.detailImage ? 'h-64 md:h-80 bg-gray-100' :
             'h-64 md:h-80 bg-gray-100'
           }`}>
             <img
-              src={service.detailImage || service.image}
+              src={service.id === 'roverano-despachante' ? service.image : (service.detailImage || service.image)}
               alt={service.name}
               className={`w-full h-full ${
                 service.id === 'security-market' ? 'object-contain p-8' :
                 service.id === 'dls-construcciones' ? 'object-contain p-4' :
                 service.id === 'quiroga-automoviles' ? 'object-contain p-8' :
                 service.id === 'torque-digital' ? 'object-cover' :
+                service.id === 'roverano-despachante' ? 'object-contain p-6' :
+                service.id === 'cortinas-sur' ? 'object-contain p-6' :
                 service.id === 'steffani-sastre' ? 'object-contain' :
                 service.detailImage ? 'object-cover object-top' :
                 'object-contain'
@@ -93,6 +97,17 @@ export default function ServiceDetail() {
               <h3 className="text-black mb-3">Descripción del Servicio</h3>
               <div className="text-gray-700 leading-relaxed whitespace-pre-line">{service.fullDescription}</div>
             </div>
+
+            {/* Flyer de Roverano */}
+            {service.id === 'roverano-despachante' && service.detailImage && (
+              <div className="mb-8">
+                <img
+                  src={service.detailImage}
+                  alt="Roverano Despachantes de Aduana"
+                  className="w-full rounded-xl shadow-md"
+                />
+              </div>
+            )}
 
             {/* Carrusel para agente inmobiliario */}
             {service.id === 'inmobiliaria' && (
