@@ -18,6 +18,7 @@ import cerrajeriaFabianLogo from '../../imports/WhatsApp_Image_2026-06-03_at_6.4
 import steffaniLogo from '../../imports/WhatsApp_Image_2026-06-04_at_5.29.33_PM.jpeg';
 import steffaniPhoto from '../../imports/image-13.png';
 import cortinasSurLogo from '../../imports/cortinas_sur_logo.jpeg';
+import piurLogo from '../../imports/piur_logo.jpeg';
 import roveranoLogo from '../../imports/roverano_despachante.jpeg';
 import roveranoFlyer from '../../imports/roverano_despachante_2.jpg';
 
@@ -35,6 +36,7 @@ export const localImages = {
   steffaniLogo,
   steffaniPhoto,
   cortinasSurLogo,
+  piurLogo,
   roveranoLogo,
   roveranoFlyer,
   ronnieCarousel: [

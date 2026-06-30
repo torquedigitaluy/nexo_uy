@@ -293,6 +293,39 @@ Evaluamos tu problema y te damos una cotización transparente antes de empezar a
     }
   },
   {
+    id: 'piur-aromatizadores',
+    name: 'PIUR Aromatizadores',
+    category: 'Aromatización de Ambientes',
+    description: 'Aromas para cada momento',
+    fullDescription: `PIUR Aromatizadores es una empresa especializada en la aromatización de ambientes. Brindamos soluciones para hogares, oficinas, comercios, hoteles, eventos, vehículos y todo tipo de espacios, utilizando productos de alta calidad que aportan frescura, bienestar y una experiencia única.
+
+Servicios:
+
+• Aromatización para hogares
+• Aromatización para empresas y oficinas
+• Aromatización para locales comerciales
+• Aromatización para hoteles y alojamientos
+• Aromatización para salones y eventos
+• Aromatización vehicular
+• Aromatizantes textiles
+• Aromatizantes para baños e inodoros
+
+¿Por qué elegir PIUR?
+
+• Productos de alta calidad
+• Fragancias exclusivas y duraderas
+• Atención personalizada
+• Soluciones para hogares y empresas
+• Amplia variedad de aromas
+• Envíos a todo Uruguay`,
+    image: localImages.piurLogo,
+    contact: {
+      phone: '095 399 208',
+      whatsapp: '59895399208',
+      instagram: '@piururuguay'
+    }
+  },
+  {
     id: 'roverano-despachante',
     name: 'Diego Roverano - Despachante de Aduanas',
     category: 'Despacho de Aduana y Comercio Exterior',
