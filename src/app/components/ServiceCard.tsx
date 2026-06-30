@@ -28,7 +28,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
           service.id === 'piur-aromatizadores' ? 'bg-white' :
           service.id === 'quiroga-automoviles' ? 'bg-white' :
           service.id === 'terra-boutique' ? 'bg-white' :
-          service.id === 'security-market' ? 'bg-white' :
+          service.id === 'security-market' ? 'bg-gray-50' :
           'bg-gray-100'
         }`}>
           <img
@@ -45,6 +45,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
               service.id === 'cortinas-sur' ? 'object-contain p-4' :
               service.id === 'roverano-despachante' ? 'object-contain p-4' :
               service.id === 'terra-boutique' ? 'object-contain p-8' :
+              service.id === 'cerrajeria-fabian' ? 'object-cover object-center' :
               'object-cover object-top'
             }`}
           />
