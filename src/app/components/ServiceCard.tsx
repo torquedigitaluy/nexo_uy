@@ -21,7 +21,10 @@ export default function ServiceCard({ service }: ServiceCardProps) {
     <Link to={`/servicio/${service.id}`} className="group block h-full">
       <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-[#ff6b00] h-full flex flex-col">
         <div className={`aspect-[16/10] overflow-hidden ${
-          service.id === 'torque-digital' ? 'bg-[#0a1628]' : 'bg-gray-100'
+          service.id === 'torque-digital' ? 'bg-[#0a1628]' :
+          service.id === 'cortinas-sur' ? 'bg-black' :
+          service.id === 'roverano-despachante' ? 'bg-black' :
+          'bg-gray-100'
         }`}>
           <img
             src={service.image}
@@ -33,6 +36,9 @@ export default function ServiceCard({ service }: ServiceCardProps) {
               service.id === 'quiroga-automoviles' ? 'object-contain p-8' :
               service.id === 'torque-digital' ? 'object-cover' :
               service.id === 'steffani-sastre' ? 'object-contain p-6' :
+              service.id === 'piur-aromatizadores' ? 'object-contain p-6' :
+              service.id === 'cortinas-sur' ? 'object-contain p-4' :
+              service.id === 'roverano-despachante' ? 'object-contain p-4' :
               'object-cover object-top'
             }`}
           />

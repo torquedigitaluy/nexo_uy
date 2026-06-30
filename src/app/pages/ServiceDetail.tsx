@@ -66,6 +66,7 @@ export default function ServiceDetail() {
             service.id === 'torque-digital' ? 'h-48 md:h-56 bg-[#0a1628]' :
             service.id === 'roverano-despachante' ? 'h-48 md:h-56 bg-black' :
             service.id === 'cortinas-sur' ? 'h-48 md:h-56 bg-black' :
+            service.id === 'piur-aromatizadores' ? 'h-48 md:h-56 bg-white' :
             service.detailImage ? 'h-64 md:h-80 bg-gray-100' :
             'h-64 md:h-80 bg-gray-100'
           }`}>
@@ -79,6 +80,7 @@ export default function ServiceDetail() {
                 service.id === 'torque-digital' ? 'object-cover' :
                 service.id === 'roverano-despachante' ? 'object-contain p-6' :
                 service.id === 'cortinas-sur' ? 'object-contain p-6' :
+                service.id === 'piur-aromatizadores' ? 'object-contain p-8' :
                 service.id === 'steffani-sastre' ? 'object-contain' :
                 service.detailImage ? 'object-cover object-top' :
                 'object-contain'
