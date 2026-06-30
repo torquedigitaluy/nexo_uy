@@ -293,6 +293,26 @@ Evaluamos tu problema y te damos una cotización transparente antes de empezar a
     }
   },
   {
+    id: 'terra-boutique',
+    name: 'Terra Boutique',
+    category: 'Plantas y Decoración Verde',
+    description: 'Plantas con estilo y un toque verde para tu día a día',
+    fullDescription: `Terra Boutique es un pequeño espacio verde creado en Montevideo con una idea simple: acercar plantas con identidad, macetas con estilo y asesoramiento real para que cada hogar pueda respirar un poco mejor.
+
+Creemos que una planta no es solo decoración; es compañía, calma y un toque de vida diaria. Por eso seleccionamos cada ejemplar con cuidado, priorizando calidad, belleza y buena adaptación al interior. También sumamos una línea de macetas y accesorios pensados para acompañar distintos estilos de hogar, desde lo minimalista hasta lo más cálido y natural.
+
+Somos un emprendimiento joven, pero con los pies en la tierra: queremos que tengas una buena experiencia, que encuentres plantas sanas, precios claros y la información necesaria para que se mantengan bien. Si necesitás ayuda, siempre estamos del otro lado.
+
+Terra Boutique: plantas con estilo, atención cercana y un toque verde para tu día a día.`,
+    image: localImages.terraBoutiqueLogo,
+    contact: {
+      phone: '+598 99 315 473',
+      whatsapp: '59899315473',
+      instagram: '@terraboutiqueuy',
+      website: 'https://www.mitienda.uy/terra-boutique-uy'
+    }
+  },
+  {
     id: 'piur-aromatizadores',
     name: 'PIUR Aromatizadores',
     category: 'Aromatización de Ambientes',

@@ -26,6 +26,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
           service.id === 'roverano-despachante' ? 'bg-black' :
           service.id === 'piur-aromatizadores' ? 'bg-white' :
           service.id === 'quiroga-automoviles' ? 'bg-white' :
+          service.id === 'terra-boutique' ? 'bg-white' :
           'bg-gray-100'
         }`}>
           <img

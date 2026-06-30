@@ -19,6 +19,7 @@ import steffaniLogo from '../../imports/WhatsApp_Image_2026-06-04_at_5.29.33_PM.
 import steffaniPhoto from '../../imports/image-13.png';
 import cortinasSurLogo from '../../imports/cortinas_sur_logo.jpeg';
 import piurLogo from '../../imports/piur_logo.jpeg';
+import terraBoutiqueLogo from '../../imports/terra_boutique.png';
 import roveranoLogo from '../../imports/roverano_despachante.jpeg';
 import roveranoFlyer from '../../imports/roverano_despachante_2.jpg';
 
@@ -37,6 +38,7 @@ export const localImages = {
   steffaniPhoto,
   cortinasSurLogo,
   piurLogo,
+  terraBoutiqueLogo,
   roveranoLogo,
   roveranoFlyer,
   ronnieCarousel: [
