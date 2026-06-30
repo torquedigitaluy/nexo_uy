@@ -293,6 +293,24 @@ Evaluamos tu problema y te damos una cotización transparente antes de empezar a
     }
   },
   {
+    id: 'cortinas-sur',
+    name: 'Cortinas Sur',
+    category: 'Cortinas de Enrollar',
+    description: 'Soluciones integrales en cortinas de enrollar',
+    fullDescription: `En Cortinas Sur nos especializamos en la venta, instalación y reparación de cortinas de enrollar. Ofrecemos presupuestos sin costo y soluciones adaptadas a cada necesidad.
+
+Casas y Comercios: Reparamos tus cortinas actuales o adaptamos sistemas nuevos a medida, mejorando la seguridad y estética de cualquier espacio.
+
+Innovación en Domótica: Automatizamos tus cortinas para que experimentes el confort de la apertura y cierre a distancia desde tu celular o control remoto.
+
+Aliado Inmobiliario: Atendemos de forma inmediata las propiedades que administras, solucionando los problemas de mantenimiento de tus inquilinos rápido y efectivo.`,
+    image: localImages.cortinasSurLogo,
+    contact: {
+      phone: '093 979 663',
+      whatsapp: '59893979663',
+    }
+  },
+  {
     id: 'steffani-sastre',
     name: 'Steffani Sastre - Escribana Pública',
     category: 'Escribanía',

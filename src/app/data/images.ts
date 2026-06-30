@@ -17,6 +17,7 @@ import torqueLogo from '../../imports/ChatGPT_Image_20_may_2026__21_03_29.png';
 import cerrajeriaFabianLogo from '../../imports/WhatsApp_Image_2026-06-03_at_6.40.55_PM.jpeg';
 import steffaniLogo from '../../imports/WhatsApp_Image_2026-06-04_at_5.29.33_PM.jpeg';
 import steffaniPhoto from '../../imports/image-13.png';
+import cortinasSurLogo from '../../imports/cortinas_sur_logo.jpeg';
 
 export const localImages = {
   ronniePhoto,
@@ -31,6 +32,7 @@ export const localImages = {
   cerrajeriaFabianLogo,
   steffaniLogo,
   steffaniPhoto,
+  cortinasSurLogo,
   ronnieCarousel: [
     ronnieCarousel1,
     ronnieCarousel2,
