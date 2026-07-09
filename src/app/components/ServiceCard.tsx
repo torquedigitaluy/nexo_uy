@@ -28,7 +28,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
           service.id === 'piur-aromatizadores' ? 'bg-white' :
           service.id === 'quiroga-automoviles' ? 'bg-white' :
           service.id === 'terra-boutique' ? 'bg-white' :
-          service.id === 'stelion' ? 'bg-gray-100' :
+          service.id === 'stelion' ? 'bg-[#e6e6e6]' :
           service.id === 'volvere' ? 'bg-white' :
           'bg-gray-100'
         }`}>
@@ -37,8 +37,8 @@ export default function ServiceCard({ service }: ServiceCardProps) {
             alt={service.name}
             className={`w-full h-full group-hover:scale-105 transition-transform duration-300 ${
               service.id === 'traslados' ? 'object-cover object-[center_40%]' :
-              service.id === 'stelion' ? 'object-cover' :
-              service.id === 'volvere' ? 'object-contain p-8' :
+              service.id === 'stelion' ? 'object-contain p-4' :
+              service.id === 'volvere' ? 'object-contain p-6' :
               service.id === 'dls-construcciones' ? 'object-contain p-4' :
               service.id === 'quiroga-automoviles' ? 'object-contain p-8' :
               service.id === 'torque-digital' ? 'object-cover' :

@@ -154,7 +154,8 @@ Volvêre es cosmética natural consciente para todas las personas; una invitaci�
     contact: {
       phone: '+598 97 235 326',
       whatsapp: '59897235326',
-      instagram: '@volvere.rituals'
+      instagram: '@volvere.rituals',
+      website: 'https://volverenatural.com/'
     }
   },
   {
