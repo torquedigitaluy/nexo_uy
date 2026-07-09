@@ -60,7 +60,8 @@ export default function ServiceDetail() {
       <main className="max-w-5xl mx-auto px-4 py-8 md:py-12">
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className={`overflow-hidden ${
-            service.id === 'security-market' ? 'h-48 md:h-56 bg-gray-100' :
+            service.id === 'stelion' ? 'h-48 md:h-56 bg-gray-100' :
+            service.id === 'volvere' ? 'h-48 md:h-56 bg-white' :
             service.id === 'dls-construcciones' ? 'h-48 md:h-56 bg-black' :
             service.id === 'quiroga-automoviles' ? 'h-48 md:h-56 bg-white' :
             service.id === 'torque-digital' ? 'h-48 md:h-56 bg-[#0a1628]' :
@@ -75,7 +76,8 @@ export default function ServiceDetail() {
               src={service.id === 'roverano-despachante' ? service.image : (service.detailImage || service.image)}
               alt={service.name}
               className={`w-full h-full ${
-                service.id === 'security-market' ? 'object-contain p-8' :
+                service.id === 'stelion' ? 'object-cover' :
+                service.id === 'volvere' ? 'object-contain p-8' :
                 service.id === 'dls-construcciones' ? 'object-contain p-4' :
                 service.id === 'quiroga-automoviles' ? 'object-contain p-8' :
                 service.id === 'torque-digital' ? 'object-cover' :

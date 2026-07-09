@@ -3,7 +3,8 @@ import ronniePhoto from '../../imports/foto_ronnie_guigou_instagram.png';
 import nexouyLogo from '../../imports/nexouy2.png';
 import nexouyLogoFull from '../../imports/nexouy-1.png';
 import lirTrasladosLogo from '../../imports/WhatsApp_Image_2026-04-25_at_12.05.25.jpeg';
-import securityMarketLogo from '../../imports/image-2.png';
+import stelionLogo from '../../imports/Stellion logo.png';
+import volvereLogo from '../../imports/Volvere.jpeg';
 import dlsLogo from '../../imports/image-5.png';
 import antonioBarnaLogo from '../../imports/ChatGPT_Image_13_may_2026__22_16_51.png';
 import quirogaLogo from '../../imports/image-6.png';
@@ -28,7 +29,8 @@ export const localImages = {
   nexouyLogo,
   nexouyLogoFull,
   lirTrasladosLogo,
-  securityMarketLogo,
+  stelionLogo,
+  volvereLogo,
   dlsLogo,
   antonioBarnaLogo,
   quirogaLogo,

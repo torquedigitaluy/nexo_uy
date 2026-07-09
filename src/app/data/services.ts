@@ -84,40 +84,77 @@ Si estás pensando en vender y querés entender cómo está posicionada tu propi
     }
   },
   {
-    id: 'security-market',
-    name: 'Security Market',
-    category: 'Seguridad Electrónica',
-    description: 'Soluciones en seguridad, inspirando confianza',
-    fullDescription: `Brindamos soluciones de CCTV, IT, intrusión, sistemas contra incendio, control de acceso y telecomunicaciones.
+    id: 'stelion',
+    name: 'Stelion',
+    category: 'Cargadores para Vehículos Eléctricos',
+    description: 'Cargadores y asesoramiento para autos eléctricos',
+    fullDescription: `Stelion es la mezcla ideal de conocimientos, experiencia y excelencia en el servicio. Nuestra empresa se posiciona como una de las opciones más confiables a la hora de comprar cargadores para vehículos eléctricos. Además, ofrecemos un excelente asesoramiento técnico de los mismos y un servicio posventa que nos diferencia del resto.
 
-Somos importadores mayoristas y asesores en Seguridad Electrónica con 26 años de experiencia en el mercado, lo que nos ha consolidado como líderes en el rubro. Con locales en Montevideo, Maldonado y Salto, distribuimos nuestros productos en todo el país.
+Contamos con una red de instaladores para los cargadores y asesoramos sobre los mismos. Buscamos aprender junto a todos los integrantes del equipo y los clientes para seguir creciendo.
 
-Nuestro compromiso se centra en ofrecer productos de alta calidad y en proporcionar capacitación y soporte personalizado a nuestros clientes. Desde nuestra fundación, nos hemos dedicado a fortalecer nuestros conocimientos y hemos reunido a un equipo humano excepcional, siempre comprometido con la honestidad, la responsabilidad y la profesionalidad en cada proyecto.
+Nos destacamos en:
 
-Nos especializamos en la comercialización de productos dirigidos a profesionales y empresas, contando con una extensa red de integradores que recomendamos según las características y la ubicación geográfica del proyecto. Además, ofrecemos el mejor servicio técnico tanto pre como posventa en el mercado.
+⚡ Somos la empresa líder en variedad de cargadores y adaptadores de autos eléctricos en el país.
 
-La experiencia en seguridad nos ha validado para proyectar, asesorar y apoyar en la realización de importantes proyectos de renombre a nivel nacional, trabajando con clientes como: ANTEL, Santander, Presidencia de la República, AGESIC, Instituto Nacional de Rehabilitación, INAU, Fuerza Aérea Uruguaya, Municipio de Montevideo, Tienda Inglesa, Plaza Italia, SODIMAC, Distrito M, eNJoy, Claro, Riogas, UCU y muchos más.
+📱 Desarrollamos la primera app del país que funciona para los cargadores domésticos y los de uso comercial.
 
-Nuestras Sucursales:
+🛡️ Garantía extendida de hasta 18 meses.
 
-📍 MONTEVIDEO
-Dámaso A. Larrañaga 3536
-Tel: 2509 3000
+✅ Productos aprobados y certificados por la URSEA y LSQA.
 
-📍 MALDONADO
-Avda. Martiniano Chiossi, local 27 - Portón de San Fernando
-Tel: 4224 0095
+🔧 Experiencia en el rubro.
 
-📍 SALTO
-Brasil 1202 esq. Invernizzi (Edificio el Mirador)
-Tel: 4732 5238`,
-    image: localImages.securityMarketLogo,
+🌐 Contamos con la mayor red de distribuidores del rubro en el país.
+
+⏱️ Rápida respuesta.
+
+🚚 Entregas rápidas.
+
+🤝 Asesoramiento personalizado.
+
+Contacto:
+
+📞 092 690 670 — Ventas
+📞 092 080 867 — Asesoramiento técnico
+
+🌐 Nuestro sitio web se lanza el 15/7.
+
+📲 App para iOS y Play Store: en período de testing, se lanza a fines de julio.`,
+    image: localImages.stelionLogo,
     contact: {
-      phone: '2509 3000',
-      whatsapp: '',
-      facebook: 'https://www.facebook.com/smarketuruguay',
-      instagram: '@securitymarket.uy',
-      website: 'https://www.smarket.com.uy/'
+      phone: '092 690 670',
+      whatsapp: '59892690670',
+      email: 'leonivancaceres@gmail.com',
+      instagram: '@stelionsas'
+    }
+  },
+  {
+    id: 'volvere',
+    name: 'Volvêre',
+    category: 'Cosmética Natural Artesanal',
+    description: 'Rituales de cuidado consciente, naturales y artesanales',
+    fullDescription: `Volvêre nace de un proceso profundo de transformación. Es comprender que el cuidado no es un lujo, sino una forma de volver a casa. Cada producto es una extensión de ese camino: formulado de manera artesanal, con intención, respeto por la piel y conexión con la naturaleza. Este espacio es para ti, si sientes que cuidarte también puede ser un acto sagrado.
+
+Lo cotidiano también forma parte del camino de regreso a ti.
+
+¿Qué es Volvêre?
+
+Volvêre significa volver: volver a las raíces, volver a lo esencial y, sobre todo, volver a ti a través del cuidado consciente.
+
+Después de formular más de 50 productos, elegimos el camino del minimalismo. No buscamos ofrecerte una rutina interminable, sino seis rituales sagrados que transforman lo cotidiano en un momento de presencia absoluta.
+
+Nuestra Alquimia
+
+Desde la nutrición profunda de nuestra Tallow Cream hasta la expansión sensorial de nuestro Aceite Íntimo, cada producto en Volvêre es una pieza de autor.
+
+Son fórmulas honestas, creadas artesanalmente en Montevideo, diseñadas para que cada vez que las uses, recuerdes que mereces cuidarte, celebrarte y respetarte.
+
+Volvêre es cosmética natural consciente para todas las personas; una invitación a que tú también vuelvas a ti.`,
+    image: localImages.volvereLogo,
+    contact: {
+      phone: '+598 97 235 326',
+      whatsapp: '59897235326',
+      instagram: '@volvere.rituals'
     }
   },
   {
