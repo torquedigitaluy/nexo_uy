@@ -145,7 +145,7 @@ export default function Home() {
           <img
             src={localImages.nexouyLogoFull}
             alt="NexoUY"
-            className="h-20 md:h-28 w-auto mx-auto mb-6 max-w-full"
+            className="h-32 md:h-44 lg:h-52 w-auto mx-auto mb-6 max-w-full"
           />
           <h1 className="text-white mb-5 text-3xl md:text-4xl lg:text-5xl">
             Contratá con confianza. Elegí profesionales recomendados.
